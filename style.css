@@ -1,0 +1,72 @@
+#mainlist{
+    margin: 0;
+    padding: 0
+}
+
+.item{
+    background-color: coral;
+    border: 2px solid brown;
+    color:darkred;
+}
+
+*{
+       padding: 10px;
+}
+
+body{
+    background-color: orange;
+}
+
+#main{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#mainlist{
+    padding: 2px;
+}
+
+@media screen and (min-width:1024px){
+    body{
+        background-color: violet;
+    }
+    .item{
+        background-color: blueviolet;
+        border: 2px solid purple;
+        color:white;
+}
+#main{
+    color: purple;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+}
+
+@media screen and (max-width:768px){
+    body{
+        background-color: orange;
+    }
+    .item{
+        background-color: coral;
+        border: 2px solid brown;
+        color:darkred;
+    }
+    #main{
+        color: brown;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+
+@media screen and (max-width:414px){
+    body{
+        background-color: black;
+    }
+    .item{
+        background-color: grey;
+        border: 2px solid black;
+        color:white;
+    }
+    #main{
+        color: white;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+}
